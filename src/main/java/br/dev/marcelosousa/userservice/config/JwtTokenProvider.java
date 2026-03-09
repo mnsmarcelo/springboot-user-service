@@ -32,6 +32,7 @@ public class JwtTokenProvider {
                 .issuedAt(new Date())
                 .expiration(expireDate)
                 .signWith(key(), SignatureAlgorithm.HS256)
+                .issuer("api-login")
                 .compact();
 
         return token;

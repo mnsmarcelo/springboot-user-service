@@ -2,7 +2,6 @@ package br.dev.marcelosousa.userservice.rest.controller;
 
 import br.dev.marcelosousa.userservice.dto.AuthDTO;
 import br.dev.marcelosousa.userservice.dto.AuthResponseDTO;
-import br.dev.marcelosousa.userservice.model.User;
 import br.dev.marcelosousa.userservice.service.AuthenticationService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
