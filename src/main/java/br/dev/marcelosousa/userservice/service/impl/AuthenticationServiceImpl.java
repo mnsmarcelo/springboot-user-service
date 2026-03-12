@@ -22,7 +22,6 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     @Autowired
     private JwtTokenProvider jwtTokenProvider;
 
-
     public AuthResponseDTO authenticate(AuthDTO input) {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
